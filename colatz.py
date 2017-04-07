@@ -13,8 +13,7 @@ def colatz( c ):
             c = (3 * c) + 1
             odd += 1
         step += 1
-    return "Kroku je " + str(step) + "\n" + "Pocet sudych cisel = " + str(even) + "\n" + "Pocet sudych lichych = " + str(odd)
-
+    return "Počet kroků je " + str(step) + "\n" + "Počet sudých čísel = " + str(even) + "\n" + "Počet lichých čísel = " + str(odd)
 
 
 
